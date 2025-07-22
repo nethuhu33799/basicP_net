@@ -1,4 +1,4 @@
-distance = input(int("Enter your distance : "))
+distance = int(input("Enter your distance : "))
 
 if distance<5:
     print ("Not sending items")
