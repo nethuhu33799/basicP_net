@@ -84,5 +84,5 @@ if age<18:
     print ("your age more than 18.")
 elif age<20:
     print ("your age more than 20.")
-else age<30:
+else :
     print ("your age more than 30.")
