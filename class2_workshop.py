@@ -1,6 +1,8 @@
 distance = int(input("Enter your distance : "))
 
-if distance<5:
+if distance<0:
+    print ("Wtf !? ")
+elif distance<5:
     print ("Not sending items")
 elif 5<distance<50:
     print ("price = 10 Bath")
