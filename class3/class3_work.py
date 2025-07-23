@@ -1,7 +1,7 @@
 while True :
     HP = 200
-    character = ["1.Nobi Nobita","2.Gon Furikusu","3.Kurapika"]
-    print("Character : ",character[0:3])
+    character = ["1.Nobi Nobita","2.Gon Furikusu","3.Kurapika",["kileture"]]
+    print("Character : ",character[0:4])
     Chioice_character = int(input("Enter your Chioice : "))
     print("Your Character is : ",character[Chioice_character-1])
     
